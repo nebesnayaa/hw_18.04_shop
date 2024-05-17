@@ -1,0 +1,172 @@
+#root{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar{
+  background-color: rgb(126, 196, 187) !important;
+}
+
+.navbar-nav{
+  display: flex;
+  gap:30px;
+  margin-left: 20px;
+}
+
+.navbar-brand{
+  color: #fff !important;
+ }
+ 
+a{
+  font-size: 20px !important;
+  font-weight: 700;
+  color:#fff;
+}
+
+a:hover{
+  color: rgb(49, 100, 91);
+}
+
+h1{
+  color:rgb(29, 97, 84);
+  margin-bottom: 20px;
+}
+h3{
+  color:rgb(68, 158, 130);
+}
+p{
+  font-size: 19px;
+  color:rgb(13, 23, 48);
+}
+
+.container{
+  margin-top: 30px !important;
+}
+
+.list-group{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 0;
+}
+
+.list-group-item{
+  background-color: #fff !important;
+  color: rgb(60, 150, 128) !important;
+  transition: 0.3s;
+  border: 2px solid rgb(187, 216, 211) !important;
+  padding: 10px !important;
+  font-size: 18px !important;
+}
+
+.list-group-item:hover{
+  background-color: rgb(187, 216, 211) !important;
+}
+
+.ctg-img{
+  max-width: 1.5em;
+  max-height: 1.5em;
+  margin-right: 1ex;
+}
+
+.card{
+  background-color: rgb(239, 252, 248) !important;
+  color: rgb(61, 105, 97) !important;
+  font-size: 20px !important;
+  border-radius: 10px;
+  border: 2px solid rgb(187, 216, 211) !important;
+  position: relative;
+}
+
+.image-box{
+  display: flex;
+  height: 200px;
+}
+
+.card-img-top{
+  display: block;
+  height: 100%;
+}
+
+.card-title{
+  color:rgb(55, 137, 124);
+}
+
+.card-text{
+  margin-bottom: 90px;
+}
+
+.price-box{
+  display: flex;
+  flex-direction: column;
+  position: absolute !important;
+  bottom: 10px;
+}
+
+.price-text{
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: rgb(188, 69, 69) !important;
+}
+
+.cart-button{
+  display: flex;
+  justify-content: center;
+  border: none !important;
+  background-color: rgb(100, 163, 152) !important;
+  border-radius: 20px;
+  padding: 8px 16px;
+  color: rgb(255, 255, 255) !important;
+}
+
+.submit-button{
+  border: none !important;
+  background-color: rgb(102, 181, 161) !important;
+  border-radius: 20px;
+  padding: 10px 40px;
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.form-part{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container{
+  width: 500px;
+}
+
+.form-button{
+  border: none !important;
+  background-color: rgb(193, 228, 219) !important;
+  border-radius: 10px;
+  padding: 5px 20px;
+}
+
+.spacer{
+  flex: 1;
+}
+
+footer {
+  background-color: #f7f7f7;
+  padding: 10px 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 40px;
+}
